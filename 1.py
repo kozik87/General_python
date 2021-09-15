@@ -21,4 +21,3 @@ else:
     mm = mm % 60
     hh = hh % 24
     print(f"{dd} дн {hh} час {mm} мин {ss} сек")
-
