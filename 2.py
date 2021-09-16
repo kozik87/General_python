@@ -25,6 +25,7 @@ num = 1
 idx = 0
 sum_elements = 0
 
+# можно делать через for i in range(1, 1000, 2)
 while num < 1000:
    cube_list.append(num ** 3)
    if is_sum_figures_deleted_7(cube_list[idx]):
